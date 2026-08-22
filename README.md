@@ -63,13 +63,12 @@ This builds the graph, prints a summary, and saves a visualization as `threat_ac
 
 Open the Notebook in the `notebooks` folder to query the graph and inspect actor-to-campaign connections.
 
+## Review guide
+
+1. `README.md` — overview and actor model
+2. `threat_actor_graph.py` — graph construction and query logic
+3. `notebooks/threat_actor_graph_analysis.ipynb` — graph exploration
+4. `threat_actor_graph.png` — visual output
+
 ## Why this matters
-
-This is a practical cyber attribution demo because it shows the relationship between:
-
-1. the actor behind malicious activity,
-2. the infrastructure used to enable it,
-3. the tactics used to execute it,
-4. the campaign that ties all of it together.
-
-That combination is the core of threat attribution work and makes the project a strong portfolio example.
+This project shows attribution skill because it connects the actor, infrastructure, TTPs, and campaign into a single explainable picture.
